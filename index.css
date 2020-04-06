@@ -1,4 +1,8 @@
 *{margin:0;}
+
+body{
+    width:320px;
+}
 .navbar {
     overflow: hidden;
     background-color:#ffffff;  
@@ -9,12 +13,13 @@
   
   .navbar a {
     float: left;
+    flex-wrap: none;
     display: block;
     color: #000000;
     text-align: center;
-    padding: 14px 16px;
+    padding: 12px 12px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 10px;
     font-family: Raleway;
   }
   
