@@ -23,16 +23,16 @@ body{
   }
 
   .navbar a:hover {
-    background-color: #c31414;
-    color:#ffffff;
+    background-color: #bababa;
+    color:#c31414;
   }
 
   .navbar a.active {
     color:#c31414;
   }
   .navbar a.active:hover {
-    background-color: #c31414;
-    color:#ffffff;
+    background-color: #bababa;
+    color:#c31414;
   }
 
   .navbar .icon {
@@ -47,3 +47,44 @@ body{
       text-align: center;
       padding: 15px;
   }
+
+  .hjem{
+      width: 20px;
+      height: auto;
+      display: flex;
+      flex-direction: row;
+      
+  }
+
+  .tilbud{
+    width: 20px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    padding-left: 5px;
+  }
+
+  .QR{
+    width: 20px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+  }
+
+  .indkøb{
+    width: 20px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+  }
+
+  .mere{
+    width: 20px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    padding-left: 2px; 
+  }
+
