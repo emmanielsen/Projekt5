@@ -1,16 +1,16 @@
-*{margin:0;}
+*{margin:0; font-family:'Raleway',black 900;}
 
 body{
     width:320px;
 }
 .navbar {
     overflow: hidden;
-    background-color:#ffffff;  
+    background-color:#ffffff;
     position: fixed;
     bottom: 0;
     width: 100%;
   }
-  
+
   .navbar a {
     float: left;
     flex-wrap: none;
@@ -20,14 +20,14 @@ body{
     padding: 12px 12px;
     text-decoration: none;
     font-size: 10px;
-    font-family: Raleway;
+    font-family: 'Raleway';
   }
-  
+
   .navbar a:hover {
     background-color: #c31414;
     color:#ffffff;
   }
-  
+
   .navbar a.active {
     color:#c31414;
   }
@@ -35,17 +35,16 @@ body{
     background-color: #c31414;
     color:#ffffff;
   }
-  
+
   .navbar .icon {
     display: none;
   }
 
   h1{
-      font-family: Raleway;
+      font-family: 'Raleway';
       font-size: 25px;
-  }
-
-  p{
-    font-family: Raleway;
-    font-size: 20px; 
+      background-color: #c31414;
+      color: #FFFFFF;
+      text-align: center;
+      padding: 15px;
   }
