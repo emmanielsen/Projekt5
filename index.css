@@ -87,4 +87,14 @@ body{
     flex-direction: row;
     padding-left: 2px; 
   }
-
+.plus{
+width: 45px;
+align: center;
+margin-left: 42%;
+margin-top: 70%;
+}
+.plustekst{
+text-align: center;
+margin-top: 70%;
+color: #646464;
+}
