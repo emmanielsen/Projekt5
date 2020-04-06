@@ -1,5 +1,4 @@
 *{margin:0;}
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 .navbar {
     overflow: hidden;
     background-color:#ffffff;  
@@ -35,3 +34,5 @@
   .navbar .icon {
     display: none;
   }
+
+  
