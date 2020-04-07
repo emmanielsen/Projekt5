@@ -53,7 +53,7 @@ h1{
   height: auto;
   display: flex;
   flex-direction: row;
-      
+
 }
 
 .tilbud{
@@ -85,7 +85,7 @@ h1{
   height: auto;
   display: flex;
   flex-direction: row;
-  padding-left: 2px; 
+  padding-left: 2px;
 }
 
 .plus{
@@ -99,4 +99,24 @@ h1{
   text-align: center;
   margin-top: 70%;
   color: #646464;
+}
+
+/* tilykke siden*/
+
+.tillykketekst{
+  margin-top: 50px;
+  text-align: center;
+  font-size: 20px;
+}
+.pakke {
+  width: 50%;
+  height: 25%;
+  margin-top: 150px;
+  margin-left: 20px;
+}
+.premieknap {
+  width: 25%;
+  height: 12.5%;
+  margin-bottom: 25px;
+  margin-left: 30px;
 }
