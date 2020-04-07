@@ -1,3 +1,4 @@
+
 console.log("emma");
 
 var image_tracker = 'baby';
@@ -19,3 +20,15 @@ var image_tracker = 'baby';
  }
  }
  var timer = setInterval ('change(); ',3000);
+
+
+ $("#shoppingForm").on('submit', function(e){
+	var text = $('#addToList').val();
+  $('#shoppingList').append($('<li>').append(text));
+  $('#addToList').val('');
+  e.preventDefault();
+});
+
+$('#shoppingList').on('dblclick', 'li', function(){
+	$(this).remove();
+});
