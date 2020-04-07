@@ -102,3 +102,28 @@ h1{
   color: #646464;
   font-family: 'Raleway';
 }
+.addBtn {
+  padding: 10px;
+  width: 25%;
+  background: #c31414;
+  color: #ffffff;
+  float: right;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 0;
+}
+
+.addBtn:hover {
+  background-color: #bbb;
+}
+ul li {
+  cursor: pointer;
+  margin-top: 20px;
+  position: static;
+  padding: 12px 40px;
+  background: #eee;
+  font-size: 18px;
+  transition: 0.2s;
+}
