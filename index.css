@@ -3,98 +3,100 @@ body{
     width:320px;
 }
 .navbar {
-    overflow: hidden;
-    background-color:#ffffff;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-  }
-
-  .navbar a {
-    float: left;
-    flex-wrap: none;
-    display: block;
-    color: #000000;
-    text-align: center;
-    padding: 12px 12px;
-    text-decoration: none;
-    font-size: 10px;
-    font-family: 'Raleway';
-  }
-
-  .navbar a:hover {
-    background-color: #bababa;
-    color:#c31414;
-  }
-
-  .navbar a.active {
-    color:#c31414;
-  }
-  .navbar a.active:hover {
-    background-color: #bababa;
-    color:#c31414;
-  }
-
-  .navbar .icon {
-    display: none;
-  }
-
-  h1{
-      font-family: 'Raleway';
-      font-size: 25px;
-      background-color: #c31414;
-      color: #FFFFFF;
-      text-align: center;
-      padding: 15px;
-  }
-
-  .hjem{
-      width: 20px;
-      height: auto;
-      display: flex;
-      flex-direction: row;
-      
-  }
-
-  .tilbud{
-    width: 20px;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    padding-left: 5px;
-  }
-
-  .QR{
-    width: 20px;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    padding-left: 22px;
-  }
-
-  .indkøb{
-    width: 20px;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    padding-left: 20px;
-  }
-
-  .mere{
-    width: 20px;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    padding-left: 2px; 
-  }
-.plus{
-width: 45px;
-align: center;
-margin-left: 42%;
-margin-top: 70%;
+  overflow: hidden;
+  background-color:#ffffff;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
+
+.navbar a {
+  float: left;
+  flex-wrap: none;
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 12px 12px;
+  text-decoration: none;
+  font-size: 10px;
+  font-family: 'Raleway';
+}
+
+.navbar a:hover {
+  background-color: #bababa;
+  color:#c31414;
+}
+
+.navbar a.active {
+  color:#c31414;
+}
+.navbar a.active:hover {
+  background-color: #bababa;
+  color:#c31414;
+}
+
+.navbar .icon {
+  display: none;
+}
+
+h1{
+  font-family: 'Raleway';
+  font-size: 25px;
+  background-color: #c31414;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 15px;
+}
+
+.hjem{
+  width: 20px;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+      
+}
+
+.tilbud{
+  width: 20px;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  padding-left: 5px;
+}
+
+.QR{
+  width: 20px;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  padding-left: 22px;
+}
+
+.indkøb{
+  width: 20px;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  padding-left: 20px;
+}
+
+.mere{
+  width: 20px;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  padding-left: 2px; 
+}
+
+.plus{
+  width: 45px;
+  align: center;
+  margin-left: 42%;
+  margin-top: 70%;
+}
+
 .plustekst{
-text-align: center;
-margin-top: 70%;
-color: #646464;
+  text-align: center;
+  margin-top: 70%;
+  color: #646464;
 }
