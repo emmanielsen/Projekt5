@@ -52,8 +52,7 @@ h1{
   width: 20px;
   height: auto;
   display: flex;
-  flex-direction: row;
-      
+  flex-direction: row;    
 }
 
 .tilbud{
@@ -96,6 +95,7 @@ h1{
   font-family: 'Raleway';
 }
 
+
 .plustekst{
   text-align: center;
   margin-top: 70%;
@@ -126,4 +126,60 @@ ul li {
   background: #eee;
   font-size: 18px;
   transition: 0.2s;
+}
+.circles {
+  border-radius: 50%; 
+  width: 130px; 
+  height: 130px; 
+  padding: 5px;
+  background-color: #c31414; 
+  margin: 27%;
+  position: absolute;
+}
+
+.textcircle {
+  font-size: 18px;
+  font-family: 'Raleway';
+  color:white;
+  margin-left: 33%;
+  margin-top: 42%;
+  position: absolute;
+}
+
+.gulcircle {
+  border-radius: 50%; 
+  width: 80px; 
+  height: 80px; 
+  padding: 3px; 
+  background-color: #FFE65F; 
+  margin: 55%;
+  position: relative;
+}
+
+.samlemærker {
+  border-radius: 50%; 
+  width: 90px; 
+  height: 90px; 
+  padding: 3px; 
+  background-color: #8C1419; 
+  text-align: center; 
+  margin-top: -125%;
+  margin-left: 10%;
+  position: relative;
+}
+
+.encirkelmere{
+  border-radius: 50%; 
+  width: 90px; 
+  height: 90px; 
+  padding: 3px; 
+  background-color: #8C1419; 
+  margin-top: -20%;
+  margin-left: 66%;
+  position: relative;
+}
+
+#image {
+  width: 150%;
+  position: fixed;
 }

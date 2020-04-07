@@ -10,13 +10,12 @@ var image_tracker = 'baby';
  image.src='img/brocoli.jpg';
  image_tracker='brocoli';
  }
-
  else{
     image.src='img/baby.jpg';
     image_tracker='baby';
  }
  }
- var timer = setInterval ('change(); ',3000);
+ var timer = setInterval ('change(); ',7000);
 
 
 //Phillips js 
