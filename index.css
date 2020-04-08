@@ -1,6 +1,7 @@
 *{margin: 0; font-family: 'Raleway';}
 body{
     width:320px;
+    background-color:#EBEBEB;
 }
 .navbar {
   overflow: hidden;
