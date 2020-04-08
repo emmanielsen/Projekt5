@@ -147,6 +147,7 @@ h1{
   cursor: pointer;
   transition: 0.3s;
   border: #c31414;
+  border-radius: 30px;
 }
 .scanBtn:hover {
   background-color: #bbb;
