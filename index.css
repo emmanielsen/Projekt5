@@ -1,6 +1,7 @@
 *{margin: 0; font-family: 'Raleway';}
 body{
     width:320px;
+    background-color:#EBEBEB;
 }
 .navbar {
   overflow: hidden;
@@ -123,7 +124,7 @@ ul li {
   margin-top: 20px;
   position: static;
   padding: 12px 40px;
-  background: #eee;
+  background: #ffffff;
   font-size: 18px;
   transition: 0.2s;
 }
