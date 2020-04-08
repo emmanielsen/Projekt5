@@ -1,6 +1,7 @@
 *{margin: 0; font-family: 'Raleway';}
 body{
     width:320px;
+    background-color:#EBEBEB;
 }
 .navbar {
   overflow: hidden;
@@ -105,7 +106,7 @@ h1{
 .addBtn {
   padding: 10px;
   width: 25%;
-  background: #c31414;
+  background: #90AE3C;
   color: #ffffff;
   float: right;
   text-align: center;
@@ -181,5 +182,5 @@ ul li {
 
 #image {
   width: 150%;
-  position: fixed;
+  position: absolute;
 }
