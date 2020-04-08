@@ -75,3 +75,8 @@ function newElement() {
   }
 }
 
+// Scan
+function myFunction() {
+  alert("Du har nu scannet din vare!");
+}
+
