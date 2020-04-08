@@ -7,11 +7,11 @@ var image_tracker = 'baby';
  function change(){
  var image = document.getElementById('image');
  if(image_tracker=='baby'){
- image.src='img/brocoli.jpg';
+ image.src='img/brocoli-01.jpg';
  image_tracker='brocoli';
  }
  else{
-    image.src='img/baby.jpg';
+    image.src='img/baby-01.jpg';
     image_tracker='baby';
  }
  }
@@ -30,7 +30,7 @@ for (i = 0; i < myNodelist.length; i++) {
   myNodelist[i].appendChild(span);
 }
 
-// Click on a close button to hide the current list item
+// Sletknap
 var close = document.getElementsByClassName("close");
 var i;
 for (i = 0; i < close.length; i++) {
@@ -40,7 +40,7 @@ for (i = 0; i < close.length; i++) {
   }
 }
 
-// Add a "checked" symbol when clicking on a list item
+// Tjekfunktion
 var list = document.querySelector('ul');
 list.addEventListener('click', function(ev) {
   if (ev.target.tagName === 'LI') {
@@ -48,7 +48,7 @@ list.addEventListener('click', function(ev) {
   }
 }, false);
 
-// Create a new list item when clicking on the "Add" button
+// Add Liste
 function newElement() {
   var li = document.createElement("li");
   var inputValue = document.getElementById("myInput").value;

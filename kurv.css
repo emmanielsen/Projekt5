@@ -121,3 +121,16 @@ h1{
   margin-bottom: 25px;
   margin-left: 30px;
 }
+
+/* Scan siden*/
+
+.scanvare{
+  text-align: center;
+  font-size: 25px;
+  margin-top: 25px;
+}
+
+.qrscanner{
+  margin-top: 60px;
+  margin-left: 40px;
+}
