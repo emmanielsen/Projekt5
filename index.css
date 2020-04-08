@@ -181,5 +181,5 @@ ul li {
 
 #image {
   width: 150%;
-  position: fixed;
+  position: absolute;
 }
