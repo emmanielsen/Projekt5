@@ -90,7 +90,6 @@ h1{
 
 .plus{
   width: 45px;
-  align: center;
   margin-left: 42%;
   margin-top: 70%;
   font-family: 'Raleway';
@@ -201,3 +200,80 @@ ul li {
   width: 320px;
   height: 580px;
 }
+
+.præmie1{
+  font-size: 25px;
+  font-family: 'Raleway';
+  background-color: #c31414;
+  color: #FFFFFF;
+  padding: 15px;
+  margin-top: 40px;
+}
+.præmie2{
+  font-size: 25px;
+  font-family: 'Raleway';
+  background-color: #c31414;
+  color: #FFFFFF;
+  padding: 15px;
+  margin-top: 40px;
+}
+.præmie3{
+  font-size: 25px;
+  font-family: 'Raleway';
+  background-color: #c31414;
+  color: #FFFFFF;
+  padding: 15px;
+  margin-top: 40px;
+}
+.præmie4{
+  font-size: 25px;
+  font-family: 'Raleway';
+  background-color: #c31414;
+  color: #FFFFFF;
+  padding: 15px;
+  margin-top: 40px;
+}
+.præmie5{
+  font-size: 25px;
+  font-family: 'Raleway';
+  background-color: #c31414;
+  color: #FFFFFF;
+  padding: 15px;
+  margin-top: 40px;
+}
+
+
+
+
+#overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 2;
+  cursor: pointer;
+}
+
+#text{
+  position: absolute;
+  top: 50%;
+  left: 12%;
+  font-size: 45px;
+  color: white;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+}
+
+#text2{
+  position: absolute;
+  top: 57%;
+  left: 12%;
+  font-size: 17px;
+  color: white;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
