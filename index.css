@@ -204,45 +204,105 @@ ul li {
 .præmie1{
   font-size: 25px;
   font-family: 'Raleway';
-  background-color: #c31414;
-  color: #FFFFFF;
-  padding: 15px;
-  margin-top: 40px;
+  margin-top: 15px;
 }
-.præmie2{
-  font-size: 25px;
-  font-family: 'Raleway';
-  background-color: #c31414;
-  color: #FFFFFF;
-  padding: 15px;
-  margin-top: 40px;
-}
-.præmie3{
-  font-size: 25px;
-  font-family: 'Raleway';
-  background-color: #c31414;
-  color: #FFFFFF;
-  padding: 15px;
-  margin-top: 40px;
-}
-.præmie4{
-  font-size: 25px;
-  font-family: 'Raleway';
-  background-color: #c31414;
-  color: #FFFFFF;
-  padding: 15px;
-  margin-top: 40px;
-}
-.præmie5{
-  font-size: 25px;
-  font-family: 'Raleway';
+
+.nummer1{
+  display: flex;
+  flex-direction: row;
   background-color: #c31414;
   color: #FFFFFF;
   padding: 15px;
   margin-top: 40px;
 }
 
-#overlay {
+.fidget{
+  height: 60px;
+    margin-left: 100px;
+  }
+
+.præmie2{
+  font-size: 25px;
+  font-family: 'Raleway';
+  margin-top: 15px;
+}
+
+.nummer2{
+  display: flex;
+  flex-direction: row;
+  background-color: #c31414;
+  color: #FFFFFF;
+  padding: 15px;
+  margin-top: 40px;
+}
+
+.fidget{
+  height: 60px;
+    margin-left: 100px;
+  }
+
+.præmie3{
+  font-size: 25px;
+  font-family: 'Raleway';
+  margin-top: 15px;
+}
+
+.nummer3{
+  display: flex;
+  flex-direction: row;
+  background-color: #c31414;
+  color: #FFFFFF;
+  padding: 15px;
+  margin-top: 40px;
+}
+
+.fidget{
+  height: 60px;
+    margin-left: 100px;
+  }
+
+.præmie4{
+  font-size: 25px;
+  font-family: 'Raleway';
+  margin-top: 15px;
+}
+
+.nummer4{
+  display: flex;
+  flex-direction: row;
+  background-color: #c31414;
+  color: #FFFFFF;
+  padding: 15px;
+  margin-top: 40px;
+}
+.fidget{
+height: 60px;
+  margin-left: 100px;
+}
+
+
+.præmie5{
+  font-size: 25px;
+  font-family: 'Raleway';
+  margin-top: 15px;
+
+}
+
+.nummer5{
+  display: flex;
+  flex-direction: row;
+  background-color: #c31414;
+  color: #FFFFFF;
+  padding: 15px;
+  margin-top: 40px;
+}
+
+.bolle{
+  height: 60px;
+  margin-left: 100px;
+ }
+
+#overlay{
   position: fixed;
   display: none;
   width: 100%;
