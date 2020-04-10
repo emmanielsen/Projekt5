@@ -259,8 +259,8 @@ ul li {
 #text{
   position: absolute;
   top: 50%;
-  left: 12%;
-  font-size: 45px;
+  left: 50%;
+  font-size: 40px;
   color: white;
   transform: translate(-50%,-50%);
   -ms-transform: translate(-50%,-50%);
@@ -268,8 +268,8 @@ ul li {
 
 #text2{
   position: absolute;
-  top: 57%;
-  left: 12%;
+  top: 58%;
+  left: 50%;
   font-size: 17px;
   color: white;
   transform: translate(-50%,-50%);
