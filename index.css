@@ -90,7 +90,6 @@ h1{
 
 .plus{
   width: 45px;
-  align: center;
   margin-left: 42%;
   margin-top: 70%;
   font-family: 'Raleway';
@@ -202,4 +201,11 @@ ul li {
   height: 580px;
 }
 
-.præmier
+.præmier{
+  font-size: 25px;
+  font-family: 'Raleway';
+  background-color: #c31414;
+  color: #FFFFFF;
+  padding: 15px;
+  margin-top: 22px;
+}
