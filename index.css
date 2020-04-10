@@ -242,9 +242,6 @@ ul li {
   margin-top: 40px;
 }
 
-
-
-
 #overlay {
   position: fixed;
   display: none;
@@ -277,3 +274,4 @@ ul li {
   color: white;
   transform: translate(-50%,-50%);
   -ms-transform: translate(-50%,-50%);
+}
