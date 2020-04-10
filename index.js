@@ -7,11 +7,11 @@ var image_tracker = 'baby';
  function change(){
  var image = document.getElementById('image');
  if(image_tracker=='baby'){
- image.src='img/brocoli-01.jpg';
+ image.src='img/mad.jpg';
  image_tracker='brocoli';
  }
  else{
-    image.src='img/baby-01.jpg';
+    image.src='img/baby.jpg';
     image_tracker='baby';
  }
  }
