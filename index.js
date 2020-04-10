@@ -75,6 +75,7 @@ function newElement() {
   }
 }
 
+// Nicolai js
 // Scan
 function myFunction() {
   alert("Du har nu scannet din vare!");

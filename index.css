@@ -90,7 +90,6 @@ h1{
 
 .plus{
   width: 45px;
-  align: center;
   margin-left: 42%;
   margin-top: 70%;
   font-family: 'Raleway';
@@ -202,4 +201,43 @@ ul li {
   height: 580px;
 }
 
-.præmier
+.præmie1{
+  font-size: 25px;
+  font-family: 'Raleway';
+  background-color: #c31414;
+  color: #FFFFFF;
+  padding: 15px;
+  margin-top: 40px;
+}
+.præmie2{
+  font-size: 25px;
+  font-family: 'Raleway';
+  background-color: #c31414;
+  color: #FFFFFF;
+  padding: 15px;
+  margin-top: 40px;
+}
+.præmie3{
+  font-size: 25px;
+  font-family: 'Raleway';
+  background-color: #c31414;
+  color: #FFFFFF;
+  padding: 15px;
+  margin-top: 40px;
+}
+.præmie4{
+  font-size: 25px;
+  font-family: 'Raleway';
+  background-color: #c31414;
+  color: #FFFFFF;
+  padding: 15px;
+  margin-top: 40px;
+}
+.præmie5{
+  font-size: 25px;
+  font-family: 'Raleway';
+  background-color: #c31414;
+  color: #FFFFFF;
+  padding: 15px;
+  margin-top: 40px;
+}
