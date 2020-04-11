@@ -84,6 +84,9 @@ function myFunction() {
 
 // Christopher js
 // Tip
+
+
+
 function on() {
     document.getElementById("overlay").style.display = "block";
   }
@@ -95,8 +98,9 @@ function on() {
 
 
 
-
-
-  
-
-  
+  function getSelectValue()
+  {
+      var selectedValue = document.getElementById("list").value;
+      console.log(selectedValue);
+  }
+  getSelectValue();
