@@ -367,13 +367,18 @@ margin-top: -20;
 
 }
 
-.mælktekst {
+#mælktekst {
 margin-top: 10px;
 font-size: 20px; 
 margin-left: 16px; 
 }
 
-
+#tomattekst {
+  margin-top: 10px;
+  font-size: 20px; 
+  margin-left: 16px; 
+  }
+  
 
 .big-checkbox {
 	display: none;
@@ -559,7 +564,7 @@ margin-left: 16px;
     font-size: 16px;
     cursor: pointer;
     border-radius: 30px;
-    margin-top: 30px;
+    margin-top: 40px;
     margin-left: 25%;
     
     
