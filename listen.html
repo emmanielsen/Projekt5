@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="index.css">
         <script src="index.js"></script>
         <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+        
         </head>
     <body>
         <div class="navbar">
@@ -21,25 +22,118 @@
 
           <div class="main">
           <h1>Indkøbsliste</h1>
+          
+          </div> 
 
-          <ul style="list-style-type:none;">
-            <li>Kylling</li> <img src="img/brød.png" alt="brød">
-            <li>Mælk</li>
-            <li>Kaffe</li>
-          </ul>  
+          <div class="liste1">
+             
+            <div>
+                
+                <input type="checkbox"  id="checkbox-2-1"  class="regular-checkbox big-checkbox" /><label for="checkbox-2-1"></label>
+            </div>
+
+            
+            <select id="list" onchange="getSelectValue();">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="1">6</option>
+              <option value="2">7</option>
+              <option value="3">8</option>
+              <option value="4">9</option>
+              <option value="5">10</option>
+          </select>
+
+            
+
+            <p class="mælktekst">
+                Mælk
+            </p>
+            <img class="mælk" src="img/mælk.png" alt="mælk">
+            
+               
+            <div id="overlay" onclick="off()">
+                <div id="text">Ledetråd</div>
+                <div id="text2">Mælkens nabo er smør.
+                    
+                </div>
+               
+            </div> 
+    
+              <button class="mælkbtn" onclick="on()">?</button>
+
+            </div> 
+            
+            
+          </div>
+         
+            
+          
+      
+          <div class="liste1">
+             
+            <div>
+                
+                <input type="checkbox"  id="checkbox-2-12"  class="big-checkbox2" /><label for="checkbox-2-12"></label>
+            </div>
+
+            
+            <select id="list" onchange="getSelectValue();">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="1">6</option>
+              <option value="2">7</option>
+              <option value="3">8</option>
+              <option value="4">9</option>
+              <option value="5">10</option>
+          </select>
+
+            
+
+            <p class="mælktekst">
+                Tomat
+            </p>
+            <img class="tomat" src="img/tomat.png" alt="mælk">
+            
+               
+            <button class="tomatbtn" onclick="on()">?</button>
+            </div>
+               
+          
+            
+            
+          </div>
+         
+            
+
+
+
+
+
+
+    
+        </div>
+
+
+    
+
+      
+        
+    </body>
+    </html>
+        
 
           
             
 
-            <div id="overlay" onclick="off()">
-                <div id="text">Tip</div>
-                <div id="text2">Kylling kan du finde i fjerkræafdelingen</div>
-              </div>
+            
               
-              <div style="padding:20px">
+              
                 
-                <button onclick="on()">?</button>
-              </div>
+                
 
-
-              æg ligger på køl og sammen med mælk
