@@ -107,7 +107,7 @@ h1{
   width: 25%;
   background: #90AE3C;
   color: #ffffff;
-  float: right;
+  margin-left: 120px;
   text-align: center;
   font-size: 16px;
   cursor: pointer;
@@ -129,7 +129,7 @@ ul li {
 }
 
 #myInput{
-  height: 30px;
+  height: 40px;
   margin-left: 5px;
   border-radius: 30px;
   margin-top: 8px;
@@ -404,7 +404,7 @@ margin-left: 16px;
 	position: absolute;
 	top: 0px;
 	left: 3x;
-	color: #90AE3C;
+	color: #7DAEDB;
 }
 
 
@@ -523,3 +523,22 @@ margin-left: 16px;
     left: 6px;
   }
   
+
+  .videre {
+    padding: 10px;
+    width: 50%;
+    background: #90AE3C;
+    color: #ffffff;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 30px;
+    margin-top: 400px;
+    margin-left: 25%;
+    
+    
+  }
+  
+  .videre:hover {
+    background-color: #bbb;
+  }
