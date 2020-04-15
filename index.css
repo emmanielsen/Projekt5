@@ -610,3 +610,11 @@ cursor: pointer;
     height: 580px;
     width: 320px;
   }
+
+
+  #divImage {
+
+    background-color: blueviolet;
+    width: 200px;
+    height: 200px;
+  }
