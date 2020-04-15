@@ -29,6 +29,7 @@
       document.getElementById("tomattekst").style.color = "#90AE3C";
 
     }
+<<<<<<< HEAD
 
 //præmie side med Random Image Generator
   
@@ -53,3 +54,5 @@
 
 
   
+=======
+>>>>>>> f0d6105f351c90e4948a3d2920d276ac5715e115
