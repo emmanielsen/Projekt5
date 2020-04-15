@@ -107,7 +107,7 @@ h1{
   width: 25%;
   background: #90AE3C;
   color: #ffffff;
-  float: right;
+  margin-left: 120px;
   text-align: center;
   font-size: 16px;
   cursor: pointer;
@@ -129,7 +129,7 @@ ul li {
 }
 
 #myInput{
-  height: 30px;
+  height: 40px;
   margin-left: 5px;
   border-radius: 30px;
   margin-top: 8px;
@@ -367,13 +367,20 @@ margin-top: -20;
 
 }
 
-.mælktekst {
+#mælktekst {
 margin-top: 10px;
 font-size: 20px; 
 margin-left: 16px; 
+cursor: pointer;
 }
 
-
+#tomattekst {
+  margin-top: 10px;
+  font-size: 20px; 
+  margin-left: 16px; 
+  cursor: pointer;
+  }
+  
 
 .big-checkbox {
 	display: none;
@@ -404,7 +411,7 @@ margin-left: 16px;
 	position: absolute;
 	top: 0px;
 	left: 3x;
-	color: #90AE3C;
+	color: #7DAEDB;
 }
 
 
@@ -456,30 +463,8 @@ margin-left: 16px;
     font-size: 20px;
   }
 
-  #overlays{
-    position: fixed;
-    display: none;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0,0,0,0.5);
-    z-index: 2;
-    cursor: pointer;
-  }
  
 
-  #text4{
-    position: absolute;
-    top: 58%;
-    left: 50%;
-    font-size: 17px;
-    color: white;
-    transform: translate(-50%,-50%);
-    -ms-transform: translate(-50%,-50%);
-  }
 
   .big-checkbox2 {
     display: none;
@@ -523,3 +508,48 @@ margin-left: 16px;
     left: 6px;
   }
   
+
+  .videre {
+    padding: 10px;
+    width: 50%;
+    background: #90AE3C;
+    color: #ffffff;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 30px;
+    margin-top: 400px;
+    margin-left: 25%;
+    
+    
+  }
+  
+  .videre:hover {
+    background-color: #bbb;
+  }
+
+  .nyscan{
+    width: 80px;
+    height: auto;
+    margin-left: 115px;
+    margin-top: 150px;
+  }
+
+  .videre2 {
+    padding: 10px;
+    width: 50%;
+    background: #90AE3C;
+    color: #ffffff;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 30px;
+    margin-top: 40px;
+    margin-left: 25%;
+    
+    
+  }
+  
+  .videre2:hover {
+    background-color: #bbb;
+  }
