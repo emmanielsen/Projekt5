@@ -1,0 +1,8 @@
+alert('I coop tager vi corona meget alvorligt og vi følger myndighedernes råd nøje. Du kan på denne side se råd omkring, hvordan du beskytter dig bedst mod corona.');
+
+var collection = [" Avoid travel if you have a fever and cough","If you have a fever, cough and difficulty breathing seek medical care early and share previous travel history with your health care provider","Avoid close contact with people suffering from a fever and cough","Frequently clean hands by using alcohol-based hand rub or soap and water","Avoid touching eyes, nose or mouth","When coughing and sneezing cover mouth and nose with flexed elbow or tissue - throw tissue away immediately and wash hands","If you choose to wear a face mask, be sure to cover mouth and nose - avoid touching mask once it's on","Immediately discard single-use mask after each use and wash hands after removing masks","Eat only well-cooked food","Avoid spitting in public","Avoid close contact and travel with animals that are sick","Use different chopping boards and knives for raw meat and cooked foods","Wash your hands between handeling raw and cooked food","Sick animals and animals that have died of diseases should not be eaten","Avoid contact with stray animals, waste and fluids in market","Avoid exposing family members to soiled work clothing and shoes","Disinfect equipment and working area at least once a day"];
+
+function sentence(){
+    var rand = Math.floor(Math.random()*17);
+    document.getElementById('change').innerHTML=collection[rand] + ".";
+};
