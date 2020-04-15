@@ -599,3 +599,10 @@ cursor: pointer;
     margin-left: 10px;
     margin-top: 10px;
   }
+
+  /* mere siden */
+
+  .mereside {
+    height: 580px;
+    width: 320px;
+  }
