@@ -53,7 +53,7 @@ h1{
   width: 20px;
   height: auto;
   display: flex;
-  flex-direction: row;    
+  flex-direction: row;
 }
 
 .tilbud{
@@ -85,7 +85,7 @@ h1{
   height: auto;
   display: flex;
   flex-direction: row;
-  padding-left: 2px; 
+  padding-left: 2px;
 }
 
 .plus{
@@ -175,11 +175,11 @@ ul li {
 }
 
 .circles {
-  border-radius: 50%; 
-  width: 130px; 
-  height: 130px; 
+  border-radius: 50%;
+  width: 130px;
+  height: 130px;
   padding: 5px;
-  background-color: #c31414; 
+  background-color: #c31414;
   margin: 27%;
   position: absolute;
 }
@@ -194,33 +194,33 @@ ul li {
 }
 
 .gulcircle {
-  border-radius: 50%; 
-  width: 80px; 
-  height: 80px; 
-  padding: 3px; 
-  background-color: #FFE65F; 
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  padding: 3px;
+  background-color: #FFE65F;
   margin: 55%;
   position: relative;
 }
 
 .samlemærker {
-  border-radius: 50%; 
-  width: 90px; 
-  height: 90px; 
-  padding: 3px; 
-  background-color: #8C1419; 
-  text-align: center; 
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  padding: 3px;
+  background-color: #8C1419;
+  text-align: center;
   margin-top: -125%;
   margin-left: 10%;
   position: relative;
 }
 
 .encirkelmere{
-  border-radius: 50%; 
-  width: 90px; 
-  height: 90px; 
-  padding: 3px; 
-  background-color: #8C1419; 
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  padding: 3px;
+  background-color: #8C1419;
   margin-top: -20%;
   margin-left: 66%;
   position: relative;
@@ -361,8 +361,8 @@ height: 30px;
   background-color: rgba(0,0,0,0.5);
   z-index: 2;
   cursor: pointer;
-  
-  
+
+
 }
 
 #text{
@@ -386,7 +386,7 @@ height: 30px;
 }
 
 .mælkbtn{
-  
+
   margin-left: 20px;
   width: 40px;
   height: 40px;
@@ -416,18 +416,18 @@ margin-top: -20;
 
 #mælktekst {
 margin-top: 10px;
-font-size: 20px; 
-margin-left: 16px; 
+font-size: 20px;
+margin-left: 16px;
 cursor: pointer;
 }
 
 #tomattekst {
   margin-top: 10px;
-  font-size: 20px; 
-  margin-left: 16px; 
+  font-size: 20px;
+  margin-left: 16px;
   cursor: pointer;
   }
-  
+
 
 .big-checkbox {
 	display: none;
@@ -490,12 +490,12 @@ cursor: pointer;
   height: 50px;
   width: auto;
   margin-top: -5;
-  
+
   }
 
 
   .tomatbtn{
-  
+
     margin-left: 13px;
     width: 40px;
     height: 40px;
@@ -509,7 +509,7 @@ cursor: pointer;
   .big-checkbox2 {
     display: none;
   }
-  
+
   .big-checkbox2 + label {
     background-color: #fafafa;
     border: 1px solid #cacece;
@@ -519,16 +519,16 @@ cursor: pointer;
     position: relative;
     margin-left: 5px;
   }
-  
-  
-  
+
+
+
   .big-checkbox2:checked + label {
     background-color: #e9ecee;
     border: 1px solid #adb8c0;
     box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1);
     color: #99a1a7;
   }
-  
+
   .big-checkbox2:checked + label:after {
     content: '\2714';
     font-size: 14px;
@@ -537,17 +537,17 @@ cursor: pointer;
     left: 3x;
     color: #90AE3C;
   }
-  
-  
+
+
   .big-checkbox2 + label {
     padding: 18px;
   }
-  
+
   .big-checkbox2:checked + label:after {
     font-size: 28px;
     left: 6px;
   }
-  
+
 
   .videre {
     padding: 10px;
@@ -562,7 +562,7 @@ cursor: pointer;
     margin-left: 25%;
     position: absolute;
   }
-  
+
   .videre:hover {
     background-color: #bbb;
   }
@@ -586,7 +586,16 @@ cursor: pointer;
     margin-top: 40px;
     margin-left: 25%;
   }
-  
+
   .videre2:hover {
     background-color: #bbb;
+  }
+
+  /* tilbage knap*/
+
+  .tilbageknap {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 10px;
   }
