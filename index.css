@@ -41,7 +41,7 @@ body{
 }
 
 h1{
-  font-family: 'Raleway';
+  font-family: 'Raleway', bold;
   font-size: 25px;
   background-color: #c31414;
   color: #FFFFFF;
