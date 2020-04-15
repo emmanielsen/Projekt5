@@ -1,9 +1,9 @@
-// Emmas js for side billede galleri  
+// Emmas js for side billede galleri
 
 console.log("emma");
 
 var image_tracker = 'baby';
- 
+
  function change(){
  var image = document.getElementById('image');
  if(image_tracker=='baby'){
@@ -18,7 +18,7 @@ var image_tracker = 'baby';
  var timer = setInterval ('change(); ',7000);
 
 
-//Phillips js 
+//Phillips js
 
 var myNodelist = document.getElementsByTagName("LI");
 var i;
@@ -78,18 +78,18 @@ function newElement() {
 // Nicolai js
 // Scan
 function myFunction() {
-  
+
   alert("Du har nu scannet din vare!");
 
 }
   // Christopher js
   // Tip
-  
-  
+
+
   function on() {
     document.getElementById("overlay").style.display = "block";
   }
-  
+
   function off() {
     document.getElementById("overlay").style.display = "none";
   }
@@ -108,9 +108,28 @@ function myFunction() {
 
 
       document.getElementById("mælktekst").style.color = "#7DAEDB";
-    
+
       document.getElementById("tomattekst").style.color = "#90AE3C";
-      
+
     }
 
+//præmie side med Random Image Generator
+    <!--
+    // Array with random image links is created. You can add as many links as you want/need.
 
+    // Regular Array
+
+    var randomImage = new Array();
+
+    randomImage[0] = "http://url.com/image01.jpg";
+    randomImage[1] = "http://url.com/image02.jpg";
+    randomImage[2] = "http://url.com/image03.jpg";
+    randomImage[3] = "http://url.com/image04.jpg";
+    randomImage[4] = "http://url.com/image05.jpg";
+
+    function getRandomImage() {
+    var number = Math.floor(Math.random()*randomImage.length);
+    document.write('<img src="'+randomImage[number]+'" />');
+    }
+    getRandomImage()
+    //-->
