@@ -134,17 +134,20 @@ input {
   color: #646464;
   font-family: 'Raleway';
 }
+
 .addBtn {
   padding: 10px;
   width: 25%;
   background: #90AE3C;
   color: #ffffff;
-  margin-left: 120px;
+  margin-left: 250px;
+  padding-bottom: 10px;
   text-align: center;
   font-size: 16px;
   cursor: pointer;
   transition: 0.3s;
   border-radius: 30px;
+  position: static;
 }
 
 .addBtn:hover {
