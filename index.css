@@ -13,11 +13,10 @@ body{
 
 .navbar a {
   float: left;
-  flex-wrap: none;
   display: block;
   color: #000000;
   text-align: center;
-  padding: 12px 12px;
+  padding: 12px 12px; 
   text-decoration: none;
   font-size: 10px;
   font-family: 'Raleway';
@@ -413,8 +412,7 @@ margin-top: 40px;
 margin-left: 16px;
 height: 80px;
 width: auto;
-margin-top: -20;
-
+margin-top:-20px;
 }
 
 #mælktekst {
@@ -451,7 +449,7 @@ cursor: pointer;
 .big-checkbox:checked + label {
 	background-color: #e9ecee;
 	border: 1px solid #adb8c0;
-	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1);
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05);
 	color: #99a1a7;
 }
 
@@ -459,8 +457,7 @@ cursor: pointer;
 	content: '\2714';
 	font-size: 14px;
 	position: absolute;
-	top: 0px;
-	left: 3x;
+	left: 3px;
 	color: #7DAEDB;
 }
 
@@ -487,12 +484,21 @@ cursor: pointer;
   margin-left: 20px;
 }
 
+#list1 {
+  background-color: #90AE3C;
+  color: white;
+  font-size: 20px;
+  border: none;
+  height: 40px;
+  width: 40px;
+  margin-left: 20px;
+}
 
 .tomat {
   margin-left: 8px;
   height: 50px;
   width: auto;
-  margin-top: -5;
+  margin-top: -5px;
 
   }
 
@@ -528,7 +534,7 @@ cursor: pointer;
   .big-checkbox2:checked + label {
     background-color: #e9ecee;
     border: 1px solid #adb8c0;
-    box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05);
     color: #99a1a7;
   }
 
@@ -537,7 +543,7 @@ cursor: pointer;
     font-size: 14px;
     position: absolute;
     top: 0px;
-    left: 3x;
+    left: 3px;
     color: #90AE3C;
   }
 
@@ -563,7 +569,7 @@ cursor: pointer;
     border-radius: 20px;
     margin-left: 25%;
     position: fixed;
-    bottom: 87;
+    bottom: 87px;
     right: 0;
     left: 0;
   }
@@ -633,7 +639,7 @@ cursor: pointer;
     border-radius: 20px;
     margin-left: 25%;
     position: fixed;
-    bottom: 320;
+    bottom: 320px;
     right: 0;
     left: 0;
 
