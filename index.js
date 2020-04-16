@@ -76,9 +76,5 @@ function myFunction() {
 
 }
 
-function generator() {
-  var x= Math.floor((Math.random()*5)+1);
-  document.getElementsById('divImage').innerHTML=`
-    <img src="img/genstand${x}.png" style="width:300px;">
-    `;
-}
+
+
