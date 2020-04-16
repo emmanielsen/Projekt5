@@ -41,7 +41,7 @@ body{
 }
 
 h1{
-  font-family: 'Raleway';
+  font-family: 'Raleway', bold;
   font-size: 25px;
   background-color: #c31414;
   color: #FFFFFF;
@@ -141,6 +141,7 @@ input {
   background: #90AE3C;
   color: #ffffff;
   margin-left: 250px;
+  margin-top: 20px;
   padding-bottom: 10px;
   text-align: center;
   font-size: 16px;
@@ -148,6 +149,7 @@ input {
   transition: 0.3s;
   border-radius: 30px;
   position: static;
+  
 }
 
 .addBtn:hover {
@@ -165,8 +167,8 @@ ul li {
 
 #myInput{
   height: 40px;
-  margin-left: 5px;
-  border-radius: 30px;
+  margin-left: 2px;
+  border-radius: 10px;
   margin-top: 8px;
 }
 
@@ -558,9 +560,11 @@ cursor: pointer;
     font-size: 16px;
     cursor: pointer;
     border-radius: 20px;
-    margin-top: 380px;
     margin-left: 25%;
-    position: absolute;
+    position: fixed;
+    bottom: 87;
+    right: 0;
+    left: 0;
   }
 
   .videre:hover {
@@ -571,7 +575,7 @@ cursor: pointer;
     width: 80px;
     height: auto;
     margin-left: 115px;
-    margin-top: 150px;
+    margin-top: 80px;
   }
 
   .videre2 {
@@ -598,4 +602,53 @@ cursor: pointer;
     height: 50px;
     margin-left: 10px;
     margin-top: 10px;
+  }
+
+  /* mere siden */
+
+  .mereside {
+    height: 580px;
+    width: 320px;
+  }
+
+
+  #divImage {
+
+    background-color: blueviolet;
+    width: 200px;
+    height: 200px;
+  }
+
+
+  .coronabtn {
+
+    padding: 10px;
+    width: 50%;
+    background: #90AE3C;
+    color: #ffffff;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-left: 25%;
+    position: fixed;
+    bottom: 320;
+    right: 0;
+    left: 0;
+
+
+
+  }
+
+  .coronabtn:hover {
+    background-color: #bbb;
+  }
+
+
+  #change {
+    margin-left: 8%;
+    font-size: large;
+    color: #black;
+    padding: 20px;
+    margin-top: 80px;
   }

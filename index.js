@@ -40,13 +40,7 @@ for (i = 0; i < close.length; i++) {
   }
 }
 
-// Tjekfunktion
-var list = document.querySelector('ul');
-list.addEventListener('click', function(ev) {
-  if (ev.target.tagName === 'LI') {
-    ev.target.classList.toggle('checked');
-  }
-}, false);
+// Nicolai js
 
 // Add Liste
 function newElement() {
@@ -75,10 +69,16 @@ function newElement() {
   }
 }
 
-// Nicolai js
 // Scan
 function myFunction() {
 
   alert("Du har nu scannet din vare!");
 
+}
+
+function generator() {
+  var x= Math.floor((Math.random()*5)+1);
+  document.getElementsById('divImage').innerHTML=`
+    <img src="img/genstand${x}.png" style="width:300px;">
+    `;
 }
