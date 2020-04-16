@@ -13,7 +13,6 @@ body{
 
 .navbar a {
   float: left;
-  flex-wrap: none;
   display: block;
   color: #000000;
   text-align: center;
@@ -91,7 +90,7 @@ h1{
 
 .plus{
   width: 45px;
-  align: center;
+  text-align: center;
   margin-left: 42%;
   margin-top: 70%;
 }
