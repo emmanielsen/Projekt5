@@ -1,6 +1,6 @@
 // Emmas js for side billede galleri
 
-console.log("emma");
+console.log("emma"); 
 
 var image_tracker = 'baby';
 
